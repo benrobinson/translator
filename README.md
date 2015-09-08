@@ -18,7 +18,7 @@ Translation.define('book', 'novel');
 Define a translation for the contents of a specific selector:
 
 ```
-Translation.define('book', 'novela', '.scope');
+Translation.define('book', 'novel', '.scope');
 
 // I read books. <div class="scope">I read books.</div> --> I read books. <div class="scope">I read novels.</div>
 ```
